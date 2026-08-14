@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <Title> Sadhana's Portfolio</Title>
+        <style>
+            :root {
+                --bg-color: #253237;
+                --text-main: #9DB4C0;
+                --text-muted: #5C6B73;
+                --accent-color: #CCE8EB;
+                --card-bg: #E0FBFC;
+                --border-color: #D6F2F4;
+            }
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                background-color: var(--bg-color);
+                color: var(--text-main);
+                line-height: 1.6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                padding: 40px 20px;
+            }
+            .container {
+                max-width: 700px;
+                width: 100%
+            }
+            .back-nav {
+                margin-bottom: 25px;
+            }
+            .back-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                color: var(--accent-color);
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 0.95rem;
+                transition: tranform 0.2s ease;
+            }
+            .back-link:hover {
+                transform: translateX(-4px);
+            }
+            header {
+                margin-bottom: 35px;
+            }
+            header h1 {
+                color: var(--accent-color);
+                font-size: 2rem;
+                font-weight: 700;
+                letter-spacing: -0.5px;
+                margin-bottom: 8px;
+            }
+            header p {
+                color: var(--acent-color);
+                font-size: 1rem;
+            }
+            .projects-grid {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+            .project-card {
+                background: var(--card-bg);
+                border: 1px solid var(--border-color);
+                border-radius: 12px;
+                padding: 25px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                transition: transform 0.2s ease;
+            }
+            .project-card:hover {
+                transform: translateY(-3px);
+            }
+            .project-image {
+                width: 100%;
+                height: 180px;
+                background-color: var(--border-color);
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--text-muted);
+                font-size: 0.9rem;
+                margin-bottom: 18px;
+                object-fit: cover;
+            }
+            .project-card h2 {
+                color: var(--bg-color);
+                font-size: 1.3rem;
+                margin-bottom: 8px;
+            }
+            .project-card p {
+                color: var(--text-muted);
+                font-size: 0.95rem;
+                margin-bottom: 15px;
+            }
+            .tag {
+                background-color: rgba(37, 50, 55, 0.1);
+                color: var(--bg-color);
+                font-size: 0.75rem;
+                font-weight: 600;
+                padding: 4px 10px;
+                border-radius: 20px;
+            }
+            .project-link {
+                display: inline-block;
+                color: var(--bg-color);
+                font-weight: 700;
+                text-decoration: none;
+                font-size: 0.9rem;
+            }
+            .project-link:hover {
+                text-decoration: underline;
+            }
+            footer {
+                margin-top: 40px;
+                text-align: center;
+                font-size: 0.85rem;
+                color: var(--text-muted);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="back-nav">
+                <a href="index.html" class="back-link">&larr; Back to Home</a>
+            </nav>
+            <header>
+                <h1>My Projects</h1>
+                <p>A collection of things I've built, designed, and developed.</p>
+            </header>
+            <main class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image">Placeholderfornow**</div>
+                    <h2>Project 1</h2>
+                    <p>
+                        blah blah blah description.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Live Demo</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">Placeholderfornow**</div>
+                    <h2>Project 2</h2>
+                    <p>
+                        blah blah blah description.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Neural Networks</span>
+                        <span class="tag">Data Science</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">View Live Demo</a>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">Placeholderfornow**</div>
+                    <h2>Project 3</h2>
+                    <p>
+                        blah blah blah description.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">YelpAPI</span>
+                        <span class="tag">Data Visualization</span>
+                    </div>
+                    <a href="#" class="project-link" target="_blank">Research Paper</a>
+                </article>
+            </main>
+            <footer>
+                Sadhana Gangadharan © 2026. Built with HTML & CSS and lots of ❤️
+            </footer>
+        </div>
+    </body>
+</html>
