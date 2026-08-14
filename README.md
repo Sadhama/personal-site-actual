@@ -7,3 +7,5 @@ Couple of key features implemented/to-be implemented:
 - Turn portfolio into an experience in being careful of what you post online. (TBD)
 
 This is basically just a mini project to collect pieces of myself and compile them into a cool mini website with a twist.
+
+Check it out here! https://sadhama.github.io/personal-site-actual/
